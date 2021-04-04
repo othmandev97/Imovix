@@ -1,0 +1,560 @@
+/*.uk-offcanvas-bar{
+	width: 100px;
+}
+.sidnavitems{
+	padding-top: 5rem
+}
+
+.sidnavitemsl li{
+	padding-top: 10rem
+} */
+/*      https://www.happyhues.co/palettes/4    */
+
+/*
+!colors *****
+
+?main :  #575151
+?second :  #3F3B3B
+?third   :  #7F5AEE
+
+*/
+
+/*main section*/
+/* .main-section {} */
+
+.main {
+	width: 95%;
+	background: #575151;
+	margin-bottom: 0px;
+}
+
+.uk-align-right {
+	margin-left: 0px;
+}
+
+.uk-navbar-right {
+	z-index: 990;
+
+}
+
+.uk-navbar-nav>li>a {
+
+	color: white;
+}
+
+/*navbar */
+#mainLogo {
+	cursor: pointer;
+	z-index: 990;
+}
+
+
+
+
+.uk-navbar-transparent .uk-search-input {
+	color: #dcdcdc;
+}
+
+/*end sidebar*/
+
+.season-header {
+	color: #fff;
+}
+
+/*sidebar*/
+
+.sidebar {
+	width: 5%;
+	background: #3F3B3B;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.uk-align-left {
+	margin-right: 0px;
+}
+
+.sidebar_items {
+	margin-top: 5rem
+}
+
+.sidebar_items li {
+	margin-top: 2rem
+}
+
+.uk-iconnav>*>a {
+	color: #7F5AEE;
+}
+
+/*end sidebar*/
+
+
+/*video home*/
+
+.overlay_video::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .20);
+	z-index: 1
+}
+
+.video-home_content {
+	z-index: 9;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	max-width: 50rem;
+}
+
+.video-home_content,
+.video-home_content h1,
+.video-home_content span {
+	color: white !important;
+}
+
+.video-home_content .uk-button-default {
+	background-color: white;
+	color: black !important;
+}
+
+.previewimg {
+	width: 100%;
+	height: 100%;
+}
+
+.section-movies a:hover {
+	text-decoration: none;
+}
+
+/*end video home*/
+
+
+/*movies section*/
+
+.uk-panel {
+	width: 330px;
+	/* height: 350px; */
+}
+
+.uk-slider-items li {
+	cursor: pointer;
+}
+
+/* [class*='uk-align'] {
+	display: block;
+	margin-bottom: 0px !important;
+} */
+
+.uk-overlay-primary_y {
+	background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #cc9c9c);
+}
+
+/*end movies section*/
+
+/*login & sign up*/
+
+.sideImg {
+	background: #7F5AEE;
+	height: 100%;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+
+
+.sideImg img {
+	width: 80%;
+}
+
+.Reg {
+	margin-top: 20px;
+	width: 80%;
+	height: 30px;
+	background-color: #6a41e4;
+	border-radius: 50%;
+}
+
+.ImgReg::after {
+	content: " ";
+	position: relative;
+	display: inline-block;
+	top: 80%;
+	left: 10%;
+	width: 40rem;
+	height: 30px;
+	z-index: 99999;
+	background-color: aqua;
+}
+
+.sidecontnts {
+	height: 100%;
+	display: flex;
+	width: 50vw;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+
+}
+
+.sidecontnt {
+	width: 70%;
+}
+
+.main_reg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.sidecontnt .uk-heading-small {
+	color: #575151;
+}
+
+.sidecontnt .uk-button {
+	background-color: #7F5AEE;
+	color: #fff;
+}
+
+/*end login & sign up*/
+
+#player {
+	width: 100vw;
+	height: 100vh;
+}
+
+/* bar watched */
+
+.barSeen {
+	height: 3px;
+	background-color: red;
+	z-index: 99999;
+	/* position: absolute;
+	top: 10%; */
+}
+
+/*  watch  */
+.btn_transprt {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 99999;
+	font-size: 1.8rem;
+	color: white;
+	transition: .3s ease-out;
+}
+
+.btn_transprt:hover {
+	transform: translateX(-3px);
+}
+
+.btn_transprt,
+.btn_transprt:focus,
+.upnext button,
+.refrechDiv button {
+	background-color: Transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: whitesmoke;
+	font-size: 1.5rem;
+}
+
+.upnext>h3 {
+	color: white !important;
+}
+
+.refrechDiv button {
+	padding-right: 4rem;
+}
+
+.upnext button span {
+	padding-right: 1rem;
+}
+
+.refrechDiv button:hover,
+.upnext button:hover {
+	color: #dededefc;
+}
+
+.video-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	z-index: 2;
+}
+
+
+
+/* Profile */
+.body_profile {
+	background: #575151;
+	height: 100vh
+}
+
+.header_profile {
+	background: #3F3B3B;
+	height: 5rem;
+}
+
+.main_profile {
+	background: #575151;
+	padding: 5rem 0rem;
+}
+
+.content_profile {
+	background: #3F3B3B;
+	max-width: 80%;
+	margin: 0rem auto 0rem auto;
+	padding: 5rem;
+	border-radius: 8px;
+}
+
+.navigation h3,
+.navigation .uk-tab>.uk-active>a {
+	color: white;
+	border-color: #575151;
+}
+
+.profile_submit {
+	width: auto;
+	background-color: #7F5AEE;
+	color: #3F3B3B;
+}
+
+.body_profile .uk-form-width-medium {
+	width: 100%;
+}
+
+.body_profile .uk-alert-success,
+.body_profile .uk-alert-danger {
+	background: #575151;
+}
+
+.body_profile .uk-alert-danger {
+	color: #f96782;
+}
+
+.subscription_header {
+	color: white;
+}
+
+.subscription_link {
+	color: #f96782;
+}
+
+.subscription_link:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+.footer-section .uk-card-body {
+	border-top: 3px black;
+	background-color: #575151;
+	box-shadow: none;
+	color: white;
+}
+
+.uk-overlay-primary {
+	background: rgba(34, 34, 34, 0.4);
+}
+
+
+
+
+/* Stack multiple shadows, one from the left, the other from the right */
+.close:hover,
+.close:focus {
+	box-shadow:
+		inset -3.5em 0 0 0 #7F5AEE,
+		inset 3.5em 0 0 0 #7F5AEE;
+	border-color: #7F5AEE;
+	color: #fff;
+	outline: none;
+}
+
+.btn-home {
+	background: none;
+	border: 2px solid;
+	font: inherit;
+	line-height: 1;
+	margin: 0.5em;
+	padding: 1em 2em;
+	cursor: pointer;
+	outline: none;
+}
+
+.close {
+	color: #7F5AEE;
+	transition: 0.25s;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 #7F5AEE;
+	}
+}
+
+.pulse:hover,
+.pulse:focus {
+	animation: pulse 1s;
+	box-shadow: 0 0 0 2em rgba(#7F5AEE, 0);
+	outline: none;
+}
+
+.pulse {
+	color: #fff;
+	outline: none;
+	transition: 0.25s;
+	background-color: #7F5AEE;
+	border-color: #7F5AEE;
+}
+
+.pulse:hover,
+.pulse:focus {
+	border-color: #7F5AEE;
+	color: #fff;
+}
+
+.fa-play {
+	padding-right: 5px;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.Item {
+	/* width: calc(20% - 10px); */
+	/* min-width: calc(20% - 10px); */
+	background-color: #000000;
+	-webkit-box-flex: 1;
+	flex: 1 0 auto;
+	background-position: center;
+	background-size: 100%;
+	height: 200px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-right: 10px;
+	-webkit-transition: background 1s ease;
+	transition: background 1s ease;
+}
+
+.Item:nth-child(n+6) {
+	margin-top: 20px;
+}
+
+.Item:last-child {
+	margin-right: 0;
+}
+
+.Item .overlay {
+	/* FF3.6-15 */
+	/* Chrome10-25,Safari5.1-6 */
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+	/* IE6-9 */
+	padding: 20px;
+	position: relative;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0;
+	-webkit-transition: opacity .125s ease;
+	transition: opacity .125s ease;
+}
+
+.Item .overlay .title {
+	font-size: 22px;
+	font-weight: 600;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+	transition: opacity .25s ease;
+	color: #fff;
+}
+
+/* 
+.Item .overlay .rating {
+	font-size: 14px;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease .125s;
+	transition: opacity .25s ease .125s;
+} */
+
+.Item .overlay .plot {
+	font-size: 14px;
+	display: -webkit-box;
+	margin-top: 100px;
+	font-weight: 300;
+	line-height: 1.6;
+	opacity: 0;
+	color: #fff;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-transition: margin .25s ease .125s, opacity .25s ease .25s;
+	transition: margin .25s ease .125s, opacity .25s ease .25s;
+}
+
+.Item:hover {
+	background-size: 150%;
+}
+
+.Item:hover .overlay {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.Item:hover .overlay .plot {
+	margin-top: 10px;
+	opacity: 1;
+}
+
+.Item:hover .overlay .title {
+	opacity: 1;
+}
+
+.Item:hover .overlay .rating {
+	opacity: 1;
+}
+
+.Item:hover .overlay .ListToggle {
+	opacity: 1;
+}
+
+.Item-link:hover {
+	text-decoration: none;
+}
+
+.uk-navbar-nav>li:hover>a,
+.uk-navbar-nav>li>a:focus,
+.uk-navbar-nav>li>a.uk-open {
+	color: rgb(255 255 255 / 55%);
+	outline: none;
+}
+
+.uk-navbar-center .uk-navbar-nav li {
+	padding: 0rem 2rem;
+}
